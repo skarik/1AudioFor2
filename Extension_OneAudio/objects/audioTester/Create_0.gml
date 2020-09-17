@@ -13,3 +13,8 @@ show_debug_message("new source: " + string(source));
 
 faudioSourcePlay(source, true);
 show_debug_message("playing on source: " + string(source));
+
+
+faudioSourceSetLooped(source, true);
+faudioSourceSetChannel(source, kFAMixChannelDefault);
+faudioSourceSetPitch(source, 1.5);
