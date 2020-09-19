@@ -17,7 +17,9 @@
   "installdir": "",
   "files": [
     {"filename":"oneAudio.dll","origname":"","init":"","final":"","kind":1,"uncompress":false,"functions":[
-        {"externalName":"AudioInitialize","kind":1,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[],"resourceVersion":"1.0","name":"faudioInitialize","tags":[],"resourceType":"GMExtensionFunction",},
+        {"externalName":"AudioInitialize","kind":1,"help":"zero","hidden":false,"returnType":2,"argCount":0,"args":[
+            2,
+          ],"resourceVersion":"1.0","name":"faudioInitialize","tags":[],"resourceType":"GMExtensionFunction",},
         {"externalName":"AudioFree","kind":1,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[],"resourceVersion":"1.0","name":"faudioFree","tags":[],"resourceType":"GMExtensionFunction",},
         {"externalName":"AudioBufferLoad","kind":1,"help":"filename","hidden":false,"returnType":2,"argCount":0,"args":[
             1,

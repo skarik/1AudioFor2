@@ -1,6 +1,6 @@
 /// @description Start audio
 
-faudioInitialize();
+faudioInitialize(0);
 
 var filename = "princess-loop.ogg";
 show_debug_message("loading: " + filename);
