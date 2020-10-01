@@ -145,7 +145,7 @@
         {"externalName":"AudioEffectDestroy","kind":1,"help":"effect","hidden":false,"returnType":2,"argCount":0,"args":[
             2,
           ],"resourceVersion":"1.0","name":"faudioEffectDestroy","tags":[],"resourceType":"GMExtensionFunction",},
-        {"externalName":"AudioEffectCreateLowPass1","kind":1,"help":"channel","hidden":false,"returnType":2,"argCount":0,"args":[
+        {"externalName":"AudioEffectCreateLowPass1","kind":1,"help":"channel - kFAMixChannel","hidden":false,"returnType":2,"argCount":0,"args":[
             2,
           ],"resourceVersion":"1.0","name":"faudioEffectCreateLowPass1","tags":[],"resourceType":"GMExtensionFunction",},
         {"externalName":"AudioEffectLowPass1SetParams","kind":1,"help":"effect, cutoffPitch, cutoffFade, strength","hidden":false,"returnType":2,"argCount":0,"args":[
